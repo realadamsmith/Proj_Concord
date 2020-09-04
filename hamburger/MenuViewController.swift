@@ -13,11 +13,9 @@ enum MenuType: Int {
     case camera
     case profile
     case merchant
-    //maybe make case Merchant signup process
-    
+    //maybe make case merchant signup process
     
 }
-
 
 class MenuViewController: UITableViewController {
 
@@ -28,7 +26,7 @@ class MenuViewController: UITableViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+    //this is the dismissal of the menu to get a new view
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let menuType = MenuType(rawValue: indexPath.row) else {return}
         dismiss(animated: true) { [weak self] in
@@ -38,4 +36,7 @@ class MenuViewController: UITableViewController {
         }
     }
 
+    
+    
 }
+

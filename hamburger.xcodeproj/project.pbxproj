@@ -65,11 +65,11 @@
 				DD88291724F9BD5C00391D72 /* AppDelegate.swift */,
 				DD88291924F9BD5C00391D72 /* SceneDelegate.swift */,
 				DD88291B24F9BD5C00391D72 /* HomeViewController.swift */,
+				DD88292B24F9BEBA00391D72 /* MenuViewController.swift */,
 				DD88291D24F9BD5C00391D72 /* Main.storyboard */,
 				DD88292024F9BD5E00391D72 /* Assets.xcassets */,
 				DD88292224F9BD5E00391D72 /* LaunchScreen.storyboard */,
 				DD88292524F9BD5E00391D72 /* Info.plist */,
-				DD88292B24F9BEBA00391D72 /* MenuViewController.swift */,
 				DD2DF82324F9C34D00EEFAE3 /* Media.xcassets */,
 				DD2DF82524F9CEB200EEFAE3 /* SlideInTransition.swift */,
 			);
