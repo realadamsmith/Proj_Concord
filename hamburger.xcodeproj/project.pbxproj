@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BF6FFF5B5604E801804568C /* Pods_hamburger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8889D7ACA8E70C406E7828C /* Pods_hamburger.framework */; };
 		DD2DF82424F9C34D00EEFAE3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2DF82324F9C34D00EEFAE3 /* Media.xcassets */; };
 		DD2DF82624F9CEB200EEFAE3 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2DF82524F9CEB200EEFAE3 /* SlideInTransition.swift */; };
+		DD870B2825045AB20014F683 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD870B2725045AB20014F683 /* Utilities.swift */; };
 		DD88291824F9BD5C00391D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88291724F9BD5C00391D72 /* AppDelegate.swift */; };
 		DD88291A24F9BD5C00391D72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88291924F9BD5C00391D72 /* SceneDelegate.swift */; };
 		DD88291C24F9BD5C00391D72 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88291B24F9BD5C00391D72 /* HomeViewController.swift */; };
@@ -16,12 +18,18 @@
 		DD88292124F9BD5E00391D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD88292024F9BD5E00391D72 /* Assets.xcassets */; };
 		DD88292424F9BD5E00391D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD88292224F9BD5E00391D72 /* LaunchScreen.storyboard */; };
 		DD88292C24F9BEBA00391D72 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88292B24F9BEBA00391D72 /* MenuViewController.swift */; };
+		DDAA75652502DE3E00F9841C /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAA75642502DE3E00F9841C /* SignupViewController.swift */; };
+		DDAA75672502DE4300F9841C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAA75662502DE4300F9841C /* LoginViewController.swift */; };
+		DDAA756A2504162000F9841C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDAA75692504162000F9841C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6FF691CC9BA9DDAF677C519C /* Pods-hamburger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hamburger.debug.xcconfig"; path = "Target Support Files/Pods-hamburger/Pods-hamburger.debug.xcconfig"; sourceTree = "<group>"; };
+		8626F0A03C58958BB738AC90 /* Pods-hamburger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hamburger.release.xcconfig"; path = "Target Support Files/Pods-hamburger/Pods-hamburger.release.xcconfig"; sourceTree = "<group>"; };
 		DD2DF82324F9C34D00EEFAE3 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		DD2DF82524F9CEB200EEFAE3 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
-		DD88291424F9BD5C00391D72 /* hamburger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hamburger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD870B2725045AB20014F683 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		DD88291424F9BD5C00391D72 /* Proj_Concord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proj_Concord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD88291724F9BD5C00391D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD88291924F9BD5C00391D72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD88291B24F9BD5C00391D72 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +38,10 @@
 		DD88292324F9BD5E00391D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD88292524F9BD5E00391D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD88292B24F9BEBA00391D72 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DDAA75642502DE3E00F9841C /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		DDAA75662502DE4300F9841C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DDAA75692504162000F9841C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F8889D7ACA8E70C406E7828C /* Pods_hamburger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hamburger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,24 +49,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF6FFF5B5604E801804568C /* Pods_hamburger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CFAB75EC584251EEA7DF38A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FF691CC9BA9DDAF677C519C /* Pods-hamburger.debug.xcconfig */,
+				8626F0A03C58958BB738AC90 /* Pods-hamburger.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DAD46EF1AB8791C06F1578F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8889D7ACA8E70C406E7828C /* Pods_hamburger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD870B2625045A8E0014F683 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DD870B2725045AB20014F683 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		DD88290B24F9BD5C00391D72 = {
 			isa = PBXGroup;
 			children = (
 				DD88291624F9BD5C00391D72 /* hamburger */,
 				DD88291524F9BD5C00391D72 /* Products */,
+				3CFAB75EC584251EEA7DF38A /* Pods */,
+				DAD46EF1AB8791C06F1578F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DD88291524F9BD5C00391D72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD88291424F9BD5C00391D72 /* hamburger.app */,
+				DD88291424F9BD5C00391D72 /* Proj_Concord.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,16 +104,28 @@
 			children = (
 				DD88291724F9BD5C00391D72 /* AppDelegate.swift */,
 				DD88291924F9BD5C00391D72 /* SceneDelegate.swift */,
-				DD88291B24F9BD5C00391D72 /* HomeViewController.swift */,
-				DD88292B24F9BEBA00391D72 /* MenuViewController.swift */,
+				DD870B2625045A8E0014F683 /* Utilities */,
+				DDAA75682502DE9000F9841C /* ViewControllers */,
 				DD88291D24F9BD5C00391D72 /* Main.storyboard */,
 				DD88292024F9BD5E00391D72 /* Assets.xcassets */,
 				DD88292224F9BD5E00391D72 /* LaunchScreen.storyboard */,
-				DD88292524F9BD5E00391D72 /* Info.plist */,
 				DD2DF82324F9C34D00EEFAE3 /* Media.xcassets */,
 				DD2DF82524F9CEB200EEFAE3 /* SlideInTransition.swift */,
+				DDAA75692504162000F9841C /* GoogleService-Info.plist */,
+				DD88292524F9BD5E00391D72 /* Info.plist */,
 			);
 			path = hamburger;
+			sourceTree = "<group>";
+		};
+		DDAA75682502DE9000F9841C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD88291B24F9BD5C00391D72 /* HomeViewController.swift */,
+				DDAA75642502DE3E00F9841C /* SignupViewController.swift */,
+				DDAA75662502DE4300F9841C /* LoginViewController.swift */,
+				DD88292B24F9BEBA00391D72 /* MenuViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD88292824F9BD5E00391D72 /* Build configuration list for PBXNativeTarget "hamburger" */;
 			buildPhases = (
+				75DA43947029D02463518E17 /* [CP] Check Pods Manifest.lock */,
 				DD88291024F9BD5C00391D72 /* Sources */,
 				DD88291124F9BD5C00391D72 /* Frameworks */,
 				DD88291224F9BD5C00391D72 /* Resources */,
+				DF31ADC29A997CF16DD73973 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -93,7 +147,7 @@
 			);
 			name = hamburger;
 			productName = hamburger;
-			productReference = DD88291424F9BD5C00391D72 /* hamburger.app */;
+			productReference = DD88291424F9BD5C00391D72 /* Proj_Concord.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,6 +190,7 @@
 			files = (
 				DD88292424F9BD5E00391D72 /* LaunchScreen.storyboard in Resources */,
 				DD88292124F9BD5E00391D72 /* Assets.xcassets in Resources */,
+				DDAA756A2504162000F9841C /* GoogleService-Info.plist in Resources */,
 				DD2DF82424F9C34D00EEFAE3 /* Media.xcassets in Resources */,
 				DD88291F24F9BD5C00391D72 /* Main.storyboard in Resources */,
 			);
@@ -143,15 +198,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75DA43947029D02463518E17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hamburger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF31ADC29A997CF16DD73973 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hamburger/Pods-hamburger-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hamburger/Pods-hamburger-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hamburger/Pods-hamburger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD88291024F9BD5C00391D72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAA75672502DE4300F9841C /* LoginViewController.swift in Sources */,
+				DDAA75652502DE3E00F9841C /* SignupViewController.swift in Sources */,
 				DD88291C24F9BD5C00391D72 /* HomeViewController.swift in Sources */,
 				DD88291824F9BD5C00391D72 /* AppDelegate.swift in Sources */,
 				DD88291A24F9BD5C00391D72 /* SceneDelegate.swift in Sources */,
 				DD88292C24F9BEBA00391D72 /* MenuViewController.swift in Sources */,
+				DD870B2825045AB20014F683 /* Utilities.swift in Sources */,
 				DD2DF82624F9CEB200EEFAE3 /* SlideInTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +394,7 @@
 		};
 		DD88292924F9BD5E00391D72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF691CC9BA9DDAF677C519C /* Pods-hamburger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,7 +405,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Scitest.hamburger;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Proj_Concord;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,6 +413,7 @@
 		};
 		DD88292A24F9BD5E00391D72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8626F0A03C58958BB738AC90 /* Pods-hamburger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,7 +424,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Scitest.hamburger;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Proj_Concord;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
